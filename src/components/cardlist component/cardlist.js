@@ -4,7 +4,7 @@ import '../cardlist component/cardlist-style.css'
 
 export function Cardlist({items}) {
     return (
-       <div className='card list'>
+       <div className="card-list">
         {
             items.map((x,key)=> {
                 return (
